@@ -11,4 +11,4 @@
 10.  git log
 11.  git diff
 12.  git merge
-13.  
+13.  git merge origin/master
