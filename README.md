@@ -12,3 +12,8 @@
 11.  git diff
 12.  git merge
 13.  git merge origin/master
+14.  git push -d origin <Branch_name> "Delete remote"
+15.  git log --oneline
+16.  git reset <file_name> "Restoring file"
+17.  git reset --mixed <commit_serial> "Back to that commit event and all file back to working Directory"
+18.  git reset --hard <commit_serial> "Back to that commit event and all file in that commit event is deleted"
