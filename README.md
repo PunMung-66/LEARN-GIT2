@@ -7,7 +7,7 @@
 6. git remote set_url
 7. git checkout
 8. git branch -a
-9. git branch -d
+9. git branch -d  *** Before delete the bracnh you must to switch to other one that you don't delete
 10.  git log
 11.  git diff
 12.  git merge
