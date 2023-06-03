@@ -19,8 +19,13 @@
 18.  git reset --hard <commit_serial> "Back to that commit event and all file in that commit event is deleted"
 # Basic command for remote in github repository
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git branch -M main
+
 git remote add origin https://github.com/PunMung-66/Shell_mustgoon.git
+
 git push -u origin main
