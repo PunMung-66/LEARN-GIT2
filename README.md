@@ -17,3 +17,11 @@
 16.  git reset <file_name> "Restoring file"
 17.  git reset --mixed <commit_serial> "Back to that commit event and all file back to working Directory"
 18.  git reset --hard <commit_serial> "Back to that commit event and all file in that commit event is deleted"
+# Basic command for remote in github repository
+echo "# Shell_mustgoon" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PunMung-66/Shell_mustgoon.git
+git push -u origin main
